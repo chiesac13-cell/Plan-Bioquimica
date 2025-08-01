@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Bioquímica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Plan de Estudios Bioquímica - UBA</h1>
+  <div class="grid">
+    <div class="materia" data-id="12" data-finales="7">
+      Química Orgánica I
+    </div>
+    <div class="materia" data-id="13" data-finales="12">
+      Química Orgánica II
+    </div>
+    <div class="materia" data-id="15" data-finales="7,8">
+      Química Analítica
+    </div>
+    <!-- Agregá más materias acá -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
