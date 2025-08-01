@@ -7,58 +7,107 @@
 </head>
 <body>
   <h1>Plan de Estudios Bioquímica - UBA (Plan 2023)</h1>
-  <div class="grid">
-    <!-- CICLO BÁSICO COMÚN (CBC) -->
-    <div class="materia" data-id="01">Matemática (CBC)</div>
-    <div class="materia" data-id="02">Química (CBC)</div>
-    <div class="materia" data-id="03">ICSE</div>
-    <div class="materia" data-id="04">Biología e Int. a la Biología Celular</div>
-    <div class="materia" data-id="05">Física e Int. a la Biofísica</div>
-    <div class="materia" data-id="06">Int. al Pensamiento Científico</div>
 
-    <!-- CICLO SUPERIOR -->
-    <div class="materia" data-id="07" data-finales="02">Química General e Inorgánica</div>
-    <div class="materia" data-id="08" data-finales="01">Matemática</div>
-    <div class="materia" data-id="09" data-finales="04">Anatomía e Histología</div>
-    <div class="materia" data-id="10" data-finales="05">Física</div>
-    <div class="materia" data-id="11" data-finales="04">Biología Celular y Molecular</div>
-    <div class="materia" data-id="12" data-finales="07">Química Orgánica I</div>
-    <div class="materia" data-id="13" data-finales="12">Química Orgánica II</div>
-    <div class="materia" data-id="14" data-finales="09,11">Fisiología</div>
-    <div class="materia" data-id="15" data-finales="08,07">Química Analítica</div>
-    <div class="materia" data-id="16" data-finales="10,07">Fisicoquímica</div>
-    <div class="materia" data-id="17" data-finales="10,15">Química Analítica Instrumental</div>
-    <div class="materia" data-id="18" data-finales="13,11">Química Biológica</div>
-    <div class="materia" data-id="19" data-finales="14">Fisiopatología</div>
-    <div class="materia" data-id="20" data-finales="18">Microbiología</div>
-    <div class="materia" data-id="21" data-finales="16,17,18">Química Biológica Superior</div>
-    <div class="materia" data-id="22" data-finales="18">Genética Molecular</div>
-    <div class="materia" data-id="23" data-finales="18,14">Inmunología</div>
-    <div class="materia" data-id="24" data-finales="14,18,19">Farmacología</div>
-    <div class="materia" data-id="25" data-finales="20,22">Biotecnología</div>
-    <div class="materia" data-id="26" data-finales="20,22">Virología</div>
-    <div class="materia" data-id="27" data-finales="19,14,18">Nutrición</div>
-    <div class="materia" data-id="28" data-finales="19,20,23">Microbiología Clínica</div>
-    <div class="materia" data-id="29" data-finales="18,19,21,23">Bioquímica Clínica I</div>
-    <div class="materia" data-id="30">Práctica Profesional Interna</div>
-    <div class="materia" data-id="31" data-finales="17,24,15,18">Toxicología y Química Legal</div>
-    <div class="materia" data-id="32" data-finales="20">Bromatología</div>
-    <div class="materia" data-id="33" data-finales="18,19">Bioquímica de Metabolopatías</div>
-    <div class="materia" data-id="34" data-finales="22">Genética Forense</div>
-    <div class="materia" data-id="35" data-finales="21,19,29">Bioquímica Clínica II</div>
-    <div class="materia" data-id="36" data-finales="30">Práctica Profesional Externa</div>
-    <div class="materia" data-id="37">Asignatura de la Orientación</div>
-    <div class="materia" data-id="38">Asignatura Optativa 1</div>
-    <div class="materia" data-id="39">Asignatura Optativa 2</div>
-    <div class="materia" data-id="40">Asignatura Electiva u Optativa</div>
-    <div class="materia" data-id="41">Asignatura Electiva u Optativa</div>
-    <div class="materia" data-id="42">Asignatura Electiva u Optativa</div>
-    <div class="materia" data-id="43">Inglés</div>
-    <div class="materia" data-id="44" data-finales="08">Bioestadística</div>
-    <div class="materia" data-id="45" data-finales="24">Legislación Bioquímica y DDHH</div>
-    <div class="materia" data-id="46" data-finales="20">Salud Pública</div>
-    <div class="materia" data-id="47">Práctica Social Educativa</div>
+  <div id="panel-finales">
+    <h2>Finales aprobados</h2>
+    <div id="checkboxes"></div>
   </div>
+
+  <div class="cuatrimestre">
+    <h2>1er Cuatrimestre</h2>
+    <div class="grid">
+      <div class="materia" data-id="01">Matemática (CBC)</div>
+      <div class="materia" data-id="02">Química (CBC)</div>
+      <div class="materia" data-id="03">ICSE</div>
+      <div class="materia" data-id="04">Biología e Int. a la Biología Celular</div>
+      <div class="materia" data-id="05">Física e Int. a la Biofísica</div>
+      <div class="materia" data-id="06">Int. al Pensamiento Científico</div>
+    </div>
+  </div>
+
+  <div class="cuatrimestre">
+    <h2>2do Cuatrimestre</h2>
+    <div class="grid">
+      <div class="materia" data-id="07" data-finales="02">Química General e Inorgánica</div>
+      <div class="materia" data-id="08" data-finales="01">Matemática</div>
+      <div class="materia" data-id="09" data-finales="04">Anatomía e Histología</div>
+      <div class="materia" data-id="10" data-finales="05">Física</div>
+      <div class="materia" data-id="11" data-finales="04">Biología Celular y Molecular</div>
+    </div>
+  </div>
+
+  <div class="cuatrimestre">
+    <h2>3er Cuatrimestre</h2>
+    <div class="grid">
+      <div class="materia" data-id="12" data-finales="07">Química Orgánica I</div>
+      <div class="materia" data-id="13" data-finales="12">Química Orgánica II</div>
+      <div class="materia" data-id="14" data-finales="09,11">Fisiología</div>
+      <div class="materia" data-id="15" data-finales="08,07">Química Analítica</div>
+      <div class="materia" data-id="16" data-finales="10,07">Fisicoquímica</div>
+    </div>
+  </div>
+
+  <div class="cuatrimestre">
+    <h2>4to Cuatrimestre</h2>
+    <div class="grid">
+      <div class="materia" data-id="17" data-finales="10,15">Química Analítica Instrumental</div>
+      <div class="materia" data-id="18" data-finales="13,11">Química Biológica</div>
+      <div class="materia" data-id="19" data-finales="14">Fisiopatología</div>
+      <div class="materia" data-id="20" data-finales="18">Microbiología</div>
+      <div class="materia" data-id="21" data-finales="16,17,18">Química Biológica Superior</div>
+      <div class="materia" data-id="22" data-finales="18">Genética Molecular</div>
+    </div>
+  </div>
+
+  <div class="cuatrimestre">
+    <h2>5to Cuatrimestre</h2>
+    <div class="grid">
+      <div class="materia" data-id="23" data-finales="18,14">Inmunología</div>
+      <div class="materia" data-id="24" data-finales="14,18,19">Farmacología</div>
+      <div class="materia" data-id="25" data-finales="20,22">Biotecnología</div>
+      <div class="materia" data-id="26" data-finales="20,22">Virología</div>
+      <div class="materia" data-id="27" data-finales="19,14,18">Nutrición</div>
+    </div>
+  </div>
+
+  <div class="cuatrimestre">
+    <h2>6to Cuatrimestre</h2>
+    <div class="grid">
+      <div class="materia" data-id="28" data-finales="19,20,23">Microbiología Clínica</div>
+      <div class="materia" data-id="29" data-finales="18,19,21,23">Bioquímica Clínica I</div>
+      <div class="materia" data-id="30">Práctica Profesional Interna</div>
+      <div class="materia" data-id="31" data-finales="17,24,15,18">Toxicología y Química Legal</div>
+      <div class="materia" data-id="32" data-finales="20">Bromatología</div>
+    </div>
+  </div>
+
+  <div class="cuatrimestre">
+    <h2>7mo Cuatrimestre</h2>
+    <div class="grid">
+      <div class="materia" data-id="33" data-finales="18,19">Bioquímica de Metabolopatías</div>
+      <div class="materia" data-id="34" data-finales="22">Genética Forense</div>
+      <div class="materia" data-id="35" data-finales="21,19,29">Bioquímica Clínica II</div>
+      <div class="materia" data-id="36" data-finales="30">Práctica Profesional Externa</div>
+    </div>
+  </div>
+
+  <div class="cuatrimestre">
+    <h2>Materias optativas y complementarias</h2>
+    <div class="grid">
+      <div class="materia" data-id="37">Asignatura de la Orientación</div>
+      <div class="materia" data-id="38">Asignatura Optativa 1</div>
+      <div class="materia" data-id="39">Asignatura Optativa 2</div>
+      <div class="materia" data-id="40">Asignatura Electiva u Optativa</div>
+      <div class="materia" data-id="41">Asignatura Electiva u Optativa</div>
+      <div class="materia" data-id="42">Asignatura Electiva u Optativa</div>
+      <div class="materia" data-id="43">Inglés</div>
+      <div class="materia" data-id="44" data-finales="08">Bioestadística</div>
+      <div class="materia" data-id="45" data-finales="24">Legislación Bioquímica y DDHH</div>
+      <div class="materia" data-id="46" data-finales="20">Salud Pública</div>
+      <div class="materia" data-id="47">Práctica Social Educativa</div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
